@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="dataCleaner",
+    name="datacleaners",
     version="0.1.0",
     author="Nagesh",
     author_email="nageshmashette32@gmail.com",
