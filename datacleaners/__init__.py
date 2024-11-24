@@ -1,4 +1,4 @@
 # dataCleaner/__init__.py
-from .cleaning import datacleaners
+from .cleaning import DataCleaner
 
-__all__ = ["datacleaners"]
+__all__ = ["DataCleaner"]

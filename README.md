@@ -22,8 +22,8 @@
 Install the package from PyPI using pip:
 
 ```bash
-pip install dataCleaner
-
+pip install datacleaners==0.4.0
+from datacleaners import DataCleaner
 cleaner = DataCleaner(df)
 cleaner.handle_missing_data()
 cleaner.drop_duplicates()

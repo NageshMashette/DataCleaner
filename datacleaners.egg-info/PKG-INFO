@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: datacleaners
-Version: 0.1.0
+Version: 0.5.0
 Summary: A package for cleaning data before machine learning.
 Home-page: https://github.com/NageshMashette/dataCleaner
 Author: Nagesh
@@ -39,4 +39,10 @@ Requires-Dist: scikit-learn
 Install the package from PyPI using pip:
 
 ```bash
-pip install dataCleaner
+pip install datacleaners==0.4.0
+from datacleaners import DataCleaner
+cleaner = DataCleaner(df)
+cleaner.handle_missing_data()
+cleaner.drop_duplicates()
+cleaner.normalize_columns()
+print(cleaner.get_cleaned_data())
